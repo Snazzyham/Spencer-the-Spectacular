@@ -1,0 +1,242 @@
+
+/*******************
+	General styling
+*******************/
+body {
+	font-family: 'Varela', sans-serif;
+	background-repeat:no-repeat;
+	-o-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+	color: #eb2854;
+	font-size: 1.3em;
+	overflow: hidden;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+    -webkit-user-select: none;
+
+}
+
+html {
+	background-color: #fdda1e;
+}
+
+input,
+textarea,
+button,
+select,
+img,
+div,
+.getFortune,
+.fortune2,
+#quoteButton,
+.fortune2:active,
+.fortune2:focus,
+.fortune2:hover,
+img:active,
+img:hover,
+*,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 1em;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 1em 0;
+}
+
+#logo img {
+	width: 190px;
+}
+
+.spencerhead {
+	width: 55%;
+	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 33px;
+	margin-bottom: 10px;
+}
+.spencerlogo {
+	width: 75%;
+	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.spencersmall {
+	width: 30%;
+	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fortune2 {
+	margin-left: auto;
+    margin-right: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+    /* max-width: 50px; */
+    width: 90px;
+    position: absolute;
+    right: 0;
+    left: 0;
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	    -moz-animation: fadein 3s; /* Firefox < 16 */
+	    -ms-animation: fadein 3s; /* Internet Explorer */
+	    -o-animation: fadein 3s; /* Opera < 12.1 */
+	    animation: fadein 3s;
+}
+
+#quoteDiv img{
+    width:320px; /* you can use % */
+    height: auto;
+    margin-left: 40px;
+		box-shadow: 5px 3px 3px black;
+}
+
+#left {
+	float: left;
+	width: 160px;
+	margin-bottom: 90em;
+	height: auto;
+}
+
+#right {
+	float: right;
+	width: 200px;
+	height: auto;
+}
+
+@media screen and (max-width: 600px) {
+	#left {
+		visibility: hidden;
+		clear: both;
+    	float: left;
+    	margin: 10px auto 5px 20px;
+    	width: 28%;
+    	display: none;
+	}
+	#right {
+		visibility: hidden;
+		clear: both;
+    	float: left;
+    	margin: 10px auto 5px 20px;
+    	width: 28%;
+    	display: none;
+	}
+
+	a {
+		margin-right: 0px;
+	}
+
+	#quoteDiv img {
+	position: static;
+    margin-left: auto;
+		margin-right: auto;
+    margin-bottom: 20px;
+		width: 85%;
+		margin-top: 90px;
+		display: flex;
+	}
+}
+
+#audio {
+	display: none;
+}
+
+#animatething {
+	-webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 400px;
+	display: flex;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+@media screen and (min-width: 370px) {
+	#animatething {
+		margin-top: 460px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	#quoteDiv img {
+		margin-top: 115px;
+		width: 85%;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+	#quoteDiv img {
+		margin-top: 72px;
+		width: 90%;
+	}
+
+}
+@media screen and (max-height: 490px) {
+	#quoteDiv img {
+		margin-top: 61px;
+		width: 73%;
+	}
+
+}
+
+.bgimg1 {
+	position: absolute;
+	z-index: -2;
+	width: 100%;
+	height: 100vh;
+	top: 0px;
+	left: 0px;
+}
+.bgimg2 {
+	position: absolute;
+	z-index: -2;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}

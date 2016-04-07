@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Spencer the Fortune Generator</title>
+		<link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/styles.css">
+		 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		 <link rel="apple-touch-icon" href="apple-icon.png">
+		 	 <link rel="stylesheet" href="css/animate.min.css">
+		 <link rel="apple-touch-icon" sizes="192x192" href="android-icon-192x192.png">
+		<meta name="viewport" content="width=device-width">
+		<style>
+	/*		body {
+					background-image: url("img/bg1.gif");
+			} */
+			@media screen and (max-height: 490px) {
+				#animatething {
+					margin-top: 330px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+
+		<section class="wrapper">
+
+
+<div class="backgroundimg">
+	<img class="bgimg1" src="img/bg1.gif">
+<!--	<img src="img/style/spencerlogo.png" class="spencerlogo">
+	<img src="img/style/spencer.png" class="spencerhead"> -->
+	<div class="getFortune">
+			<a href="fortune.html" class="link" style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><img src="img/magicballs.gif" width="40%" height="auto" class="animated fadeIn link" style="-webkit-tap-highlight-color: rgba(0,0,0,0);" id="animatething"></a>
+		</div>
+</div>
+		</section>
+		<script type="text/javascript" src="js/app.js"></script>
+			 <script src="js/jquery.js"></script>
+		<script>
+		$(document).ready(function() {
+
+
+				$('.getFortune').click(function(event) {
+
+				event.preventDefault();
+
+				newLocation = this.href;
+
+				$('body').fadeOut(2000, newpage);
+
+				});
+
+
+
+				function newpage() {
+
+				window.location = "fortune.html";
+
+				}
+		}
+	);
+	</script>
+	<script>
+	document.addEventListener("touchstart", function(){}, true);
+	</script>
+	</body>
+</html>
