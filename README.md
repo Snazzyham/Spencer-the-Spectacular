@@ -6,6 +6,6 @@ The designs and images used in this application are the Intellectual Property of
 
 I used the Ionic Framework to turn this web app into an iOS app, and if you'd like to help beta test it, sign up [here](https://docs.google.com/forms/d/1aPTfnd31-B-rC21f4nktq__KBL7W1DsiXLPMh5f_c50/viewform). 
 
-A web app version can be found [here](http://spencer.imcrushing.it). It should work on most devices, however, you may run into some layout issues depending on screen size.  
+A web app version can be found [here](http://spectacularspencer.com). It should work on most devices, however, you may run into some layout issues depending on screen size.  
 
 Spencer is available on the [App Store](http://appsto.re/us/sLdmab.i) now. 
